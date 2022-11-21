@@ -1,6 +1,6 @@
 import "./App.css";
 import { AuthProvider } from "./auth/AuthContext";
-import { ChatProvider } from "./context/chat/chatContext";
+import { ChatProvider } from "./context/chat/ChatContext";
 import { SocketProvider } from "./context/SocketContext";
 import AppRouter from "./router/AppRouter";
 
