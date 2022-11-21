@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "../auth/AuthContext";
-import { ChatContext } from "../context/chat/chatContext";
+import { ChatContext } from "../context/chat/ChatContext";
 import { SocketContext } from "../context/SocketContext";
 
 const SendMessage = () => {

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../auth/AuthContext";
-import { ChatContext } from "../context/chat/chatContext";
+import { ChatContext } from "../context/chat/ChatContext";
 import SideBarChatItem from "./SideBarChatItem";
 
 const SideBarChat = () => {

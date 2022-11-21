@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ChatContext } from "../context/chat/chatContext";
+import { ChatContext } from "../context/chat/ChatContext";
 
 const HeaderMessage = () => {
   const { chatState } = useContext(ChatContext);

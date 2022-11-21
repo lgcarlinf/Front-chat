@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ChatContext } from "../context/chat/chatContext";
+import { ChatContext } from "../context/chat/ChatContext";
 import { fetchConToken } from "../helpers/fetch";
 import {
   scrollToBottomAnimated,

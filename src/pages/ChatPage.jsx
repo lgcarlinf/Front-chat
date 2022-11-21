@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import Messages from "../components/Messages";
 import SelectChat from "../components/SelectChat";
 import SideBar from "../components/SideBar";
-import { ChatContext } from "../context/chat/chatContext";
+import { ChatContext } from "../context/chat/ChatContext";
 
 const ChatPage = () => {
   const { chatState } = useContext(ChatContext);

@@ -7,7 +7,7 @@ import {
 } from "../helpers/scrollToBottom";
 import { useSocket } from "../hooks/useSockets";
 import { types } from "../types/types.js";
-import { ChatContext } from "./chat/chatContext";
+import { ChatContext } from "./chat/ChatContext";
 
 export const SocketContext = createContext();
 
