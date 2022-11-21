@@ -34,7 +34,7 @@ const SideBarChatItem = ({ uid, nombre, status }) => {
       onClick={onClick}
     >
       <img
-        src="./public/avatar.jpeg"
+        src="https://res.cloudinary.com/dhtyfvv9i/image/upload/v1669012327/avatar_jgglnn.jpg"
         alt=""
         className="w-[50px] h-[50px] rounded-full"
       />

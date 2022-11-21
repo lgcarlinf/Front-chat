@@ -51,7 +51,7 @@ const RegisterPage = () => {
       <div className="layer flex items-center justify-center">
         <div className="login flex-col  w-1/2 sm:w-5/12 md:w-1/3 lg:w-1/4  h-auto items-center justify-between">
           <img
-            src="./public/avatar.jpeg"
+            src="https://res.cloudinary.com/dhtyfvv9i/image/upload/v1669012327/avatar_jgglnn.jpg"
             alt=""
             className=" rounded-full w-[100px] h-[100px] m-auto"
           />

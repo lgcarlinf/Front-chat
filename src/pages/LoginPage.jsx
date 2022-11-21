@@ -58,7 +58,7 @@ const LoginPage = () => {
       <div className="layer flex items-center justify-center">
         <div className="login flex-col  w-3/4 sm:w-1/2 md:w-2/5 lg:w-1/4  h-auto items-center justify-between">
           <img
-            src="./public/avatar.jpeg"
+            src="https://res.cloudinary.com/dhtyfvv9i/image/upload/v1669012327/avatar_jgglnn.jpg"
             alt=""
             className=" rounded-full w-[100px] h-[100px] m-auto"
           />

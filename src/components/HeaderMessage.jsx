@@ -12,7 +12,7 @@ const HeaderMessage = () => {
     <div className="flex items-center w-full h-[56px] bg-[#f0f2f5] border-b-slate-300 border-b-[1px] absolute top-0">
       <div className=" flex items-center pl-4">
         <img
-          src="./public/avatar.jpeg"
+          src="https://res.cloudinary.com/dhtyfvv9i/image/upload/v1669012327/avatar_jgglnn.jpg"
           alt=""
           className="w-[40px] h-[40px] rounded-full mr-2"
         />
