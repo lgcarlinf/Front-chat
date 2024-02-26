@@ -1,4 +1,4 @@
-export const baseUrl = import.meta.env.VITE_BASEURL;
+export const baseUrl = import.meta.env.VITE_BASEURL+ "/api";
 
 export const fetchSinToken = async (endpoint, data, method = "GET") => {
   const url = `${baseUrl}/${endpoint}`;

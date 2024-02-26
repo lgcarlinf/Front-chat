@@ -13,7 +13,7 @@ export const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
   const { socket, online, conectarSocket, desconectarSocket } = useSocket(
-    "https://chat-back.onrender.com"
+    import.meta.env.VITE_BASEURL
   );
 
   const { auth } = useContext(AuthContext);

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useContext } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
 import Loader from "../components/Loader";
 import ChatPage from "../pages/ChatPage";
@@ -21,7 +21,7 @@ const AppRouter = () => {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<PrivateRoute isAuthenticated={auth.logged} />}>
           <Route path="/" element={<ChatPage />} />
@@ -33,7 +33,7 @@ const AppRouter = () => {
           <Route path="/*" element={<h1>NOT FOUND</h1>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
